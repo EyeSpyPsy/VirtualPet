@@ -35,7 +35,7 @@ class VirtualPet:
                 "Meow! Can we cuddle?",
                 "Squeak! Let's play together!",
                 "Chirp! You're my favorite person!",
-                "I'm feeling great, thank you for asking!",
+                "Thank you for taking care of me!",
                 "I love spending time with you!"
             ]
             print(f"{self.name} says: {random.choice(responses)}")
