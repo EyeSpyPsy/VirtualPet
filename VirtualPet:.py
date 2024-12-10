@@ -4,8 +4,8 @@ class VirtualPet:
     def __init__(self, name, pet_type):
         self.name = name
         self.pet_type = pet_type
-        self.hunger = 5  # Hunger level (0 is full, 10 is very hungry)
-        self.happiness = 5  # Happiness level (0 is sad, 10 is very happy)
+        self.hunger = 5  
+        self.happiness = 5  
 
     def feed(self):
         if self.hunger > 0:
